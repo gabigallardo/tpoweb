@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>subli.men - Tienda de Sublimaciones</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+  <header>
+    <h1>
+    <nav>
+      <ul class="indice">
+        <li ><a href="sublimen.html"id="logo"><img src="400PngdpiLogoCropped.png" alt="Logo de Subli.men" width="75" height="75"></a></li>
+        <li ><a href="sublimen.html"class="boton" id="inicio">Inicio</a></li>
+        <li ><a href="productos.html"class="boton" id="productos">Productos</a></li>
+        <li ><a href="micuenta.html"class="boton" id="micuenta">Mi Cuenta</a> </li>
+        <li ><a href="contacto.html"class="boton" id="contacto">Contacto</a></li>
+        <li ><a href="carrito.html"id="carrito"><img src="carrito.png" alt="Carrito de compras" width="75" height="75"></a></li>
+      </ul>
+    </nav>
+    </h1>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Bienvenidos a subli.men</h2>
+      <p>En subli.men ofrecemos una amplia variedad de productos personalizables mediante sublimación. Desde tazas y camisetas hasta cojines y llaveros, ¡tenemos todo lo que necesitas para expresar tu estilo!</p>
+    </section>
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="producto">
+          <img src="producto1.jpg" alt="Producto 1">
+          <h3>Producto 1</h3>
+          <p>Descripción del producto 1...</p>
+          <a href="#">Ver detalles</a>
+        </div>
+        <div class="producto">
+          <img src="producto2.jpg" alt="Producto 2">
+          <h3>Producto 2</h3>
+          <p>Descripción del producto 2...</p>
+          <a href="#">Ver detalles</a>
+        </div>
+        <!-- Agrega más productos aquí -->
+      </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>¡Estamos aquí para ayudarte! Puedes ponerte en contacto con nosotros mediante el siguiente formulario:</p>
+      <form action="enviar.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 subli.men. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
